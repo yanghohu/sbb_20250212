@@ -20,7 +20,7 @@ public class Answer {
     @Column(columnDefinition = "TEXT")
     private String content;
 
-    private LocalDateTime createDateTime;
+    private LocalDateTime createDate;
 
     @ManyToOne
     private Question question;
